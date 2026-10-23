@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm [Kewal]
+# 👋 Hi, I'm Kewal
 
 ### Aspiring Bioinformatician · Building at the intersection of Biology, Data and AI
 

@@ -115,7 +115,7 @@ I'm teaching myself the computational side of modern biology early: programming,
 I'm happy to connect with students, bioinformaticians and anyone on a similar path, especially those who have studied or worked in Germany.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kewalxraaj@gmail.com)
 
 ---
 

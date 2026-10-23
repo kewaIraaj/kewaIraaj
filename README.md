@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hi%2C%20I'm%20YOUR%20NAME&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Bioinformatician&descSize=20&descAlignY=58" alt="banner" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hi%2C%20I'm%20Kewal&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Bioinformatician&descSize=20&descAlignY=58" alt="banner" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2EA44F&center=true&vCenter=true&width=620&lines=Biology+%2B+Code+%2B+Data+%F0%9F%A7%AC;Learning+in+public%2C+one+commit+at+a+time;B.Sc.+Bioinformatics+%E2%86%92+M.Sc.+in+Germany+%F0%9F%87%A9%F0%9F%87%AA" alt="Typing SVG" />
@@ -9,7 +9,7 @@
 <br/>
 
 ![Focus](https://img.shields.io/badge/Focus-Bioinformatics-2ea44f?style=for-the-badge&logo=dna&logoColor=white)
-![Goal](https://img.shields.io/badge/Goal-M.Sc.%20in%20Germany-black?style=for-the-badge&logo=germany&logoColor=white)
+![Goal](https://img.shields.io/badge/Goal-M.Sc.%20in%20Germany-black?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Learning%20in%20public-blue?style=for-the-badge)
 
 </div>
@@ -19,24 +19,6 @@
 ## 🧬 About
 
 I'm a student preparing for a **B.Sc. in Bioinformatics / Biotechnology**, with a long-term plan to pursue an **M.Sc. in Germany**. I'm learning the computational side of biology early (programming, statistics, genomics and machine learning) and sharing my notes and projects here.
-
----
-
-## 🗺️ Roadmap
-
-```mermaid
-flowchart LR
-    A([📚 Now<br/>Entrance prep +<br/>core skills]) --> B([🎓 B.Sc.<br/>Bioinformatics /<br/>Biotechnology])
-    B --> C([🇩🇪 M.Sc.<br/>in Germany])
-    C --> D([🧪 Career in<br/>Bioinformatics])
-
-    style A fill:#2ea44f,stroke:#1f7a3a,color:#fff
-    style B fill:#1f6feb,stroke:#1858b8,color:#fff
-    style C fill:#8957e5,stroke:#6e40c9,color:#fff
-    style D fill:#d29922,stroke:#9e7518,color:#fff
-```
-
-**Side quests:** 🇩🇪 German → B2 · 🇬🇧 IELTS → 7.0+
 
 ---
 
@@ -60,34 +42,49 @@ flowchart LR
 
 ---
 
-## 🌱 Currently Learning
+## 🔬 What I'm Working On
 
-Edit the levels so they match where you really are.
-
-| Area | Topics | Level |
-|:-----|:-------|:------|
-| 💻 Programming | Python, Jupyter, Git/GitHub, Linux/Bash | ![](https://img.shields.io/badge/-Learning-yellow) |
-| 📊 Data analysis | NumPy, Pandas, Matplotlib | ![](https://img.shields.io/badge/-Learning-yellow) |
-| 📐 Math | Statistics, probability, linear algebra | ![](https://img.shields.io/badge/-Beginner-red) |
-| 🗄️ Databases | SQL | ![](https://img.shields.io/badge/-Beginner-red) |
-| 🧬 Bioinformatics | FASTA/FASTQ, alignment, BLAST | ![](https://img.shields.io/badge/-Beginner-red) |
-
-<details>
-<summary><b>🔭 Up next (click to expand)</b></summary>
-<br/>
-
-- Genomics, NGS and transcriptomics
-- Biological databases
-- Machine learning and deep learning
-- Software / data engineering and modern AI / LLM workflows
-
-</details>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 Code</h3>
+      Writing Python in Jupyter, working in the Linux terminal, and keeping everything versioned with Git and GitHub. Also getting comfortable with SQL and databases.
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 Data & Math</h3>
+      Analysing data with NumPy and Pandas, plotting with Matplotlib, and building the statistics, probability and linear algebra foundations behind it.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧬 Bioinformatics</h3>
+      Starting with the basics: FASTA/FASTQ formats, sequence alignment and BLAST.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌍 Languages</h3>
+      German toward a B2 certificate, and English toward an IELTS 7.0+ score.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <h3>🔭 On the Horizon</h3>
+      <img src="https://img.shields.io/badge/Genomics-30363d?style=flat-square" alt="Genomics"/>
+      <img src="https://img.shields.io/badge/NGS-30363d?style=flat-square" alt="NGS"/>
+      <img src="https://img.shields.io/badge/Transcriptomics-30363d?style=flat-square" alt="Transcriptomics"/>
+      <img src="https://img.shields.io/badge/Biological%20Databases-30363d?style=flat-square" alt="Biological Databases"/>
+      <img src="https://img.shields.io/badge/Machine%20Learning-30363d?style=flat-square" alt="Machine Learning"/>
+      <img src="https://img.shields.io/badge/Deep%20Learning-30363d?style=flat-square" alt="Deep Learning"/>
+      <img src="https://img.shields.io/badge/Data%20Engineering-30363d?style=flat-square" alt="Data Engineering"/>
+      <img src="https://img.shields.io/badge/AI%20%2F%20LLM%20Workflows-30363d?style=flat-square" alt="AI and LLM Workflows"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 📂 Projects
 
-<!-- Replace this section with real repos. Example pinned-repo cards:
+<!-- Replace this section with real repos. Example pinned-repo card:
 [![fasta-toolkit](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=fasta-toolkit&theme=dark&hide_border=true)](https://github.com/YOUR_USERNAME/fasta-toolkit)
 -->
 
@@ -112,8 +109,8 @@ Edit the levels so they match where you really are.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kewalxraaj@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%" alt="footer"/>
 

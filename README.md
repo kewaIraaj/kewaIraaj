@@ -103,7 +103,7 @@ I'm teaching myself the computational side of modern biology early: programming,
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=kewaIlraaj&show_icons=true&theme=default&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=kewaIraaj&show_icons=true&theme=default&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kewaIraaj&layout=compact&hide_border=true)
 
 </div>

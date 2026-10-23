@@ -2,15 +2,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Hi%2C%20I'm%20Kewal&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Aspiring%20Bioinformatician&descSize=20&descAlignY=58" alt="banner" width="100%"/>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=2EA44F&center=true&vCenter=true&width=620&lines=Biology+%2B+Code+%2B+Data+%F0%9F%A7%AC;Learning+in+public%2C+one+commit+at+a+time;B.Sc.+Bioinformatics+%E2%86%92+M.Sc.+in+Germany+%F0%9F%87%A9%F0%9F%87%AA" alt="Typing SVG" />
-</a>
+**Biology 🧬 + Code 💻 + Data 📊**
 
-<br/>
-
-![Focus](https://img.shields.io/badge/Focus-Bioinformatics-2ea44f?style=for-the-badge&logo=dna&logoColor=white)
-![Goal](https://img.shields.io/badge/Goal-M.Sc.%20in%20Germany-black?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Learning%20in%20public-blue?style=for-the-badge)
+*Learning in public, one commit at a time.*
 
 </div>
 
@@ -109,8 +103,8 @@ I'm a student preparing for a **B.Sc. in Bioinformatics / Biotechnology**, with 
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_HANDLE)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kewalxraaj@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=100&section=footer" width="100%" alt="footer"/>
 

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 54" width="168" height="54" role="img" aria-label="LinkedIn">
-<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#d946ef"/></linearGradient>
-<filter id="gl" x="-30%" y="-60%" width="160%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#8b5cf6" flood-opacity="0.45"/></filter></defs>
-<rect x="2" y="2" width="164" height="50" rx="25" fill="#15122a" stroke="url(#bd)" stroke-width="1.6" filter="url(#gl)"/>
-<g transform="translate(26 13)"><rect width="28" height="28" rx="6" fill="#0a66c2"/><text x="14" y="21" text-anchor="middle" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#fff">in</text></g>
-<text x="62" y="33" font-family="Inter, 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#ece9f7">LinkedIn</text></svg>

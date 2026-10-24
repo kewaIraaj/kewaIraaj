@@ -112,7 +112,7 @@
      {'Bioinformatics Student'}
    </div>
    <div style={{ display:'flex', gap:8, marginTop:6 }}>
-     {['Python', 'SQL', 'Linux', 'Git'].map(function(tag) {
+     {['Python', 'NumPy', 'Pandas', 'Jupyter'].map(function(tag) {
        return (
          <div key={tag} style={{
            display:'flex', padding:'4px 12px', borderRadius:20,
@@ -126,13 +126,120 @@
 </div>
 ```
 
-```aura width=860 height=224
+```aura width=860 height=140
+(function() {
+ var stats = [
+   { label: 'Repos', value: String((github && github.stats && github.stats.totalRepos) || 0), color: '#a78bfa' },
+   { label: 'Stars', value: String((github && github.stats && github.stats.totalStars) || 0), color: '#60a5fa' },
+   { label: 'Commits', value: String((github && github.stats && github.stats.totalCommits) || 0), color: '#f59e0b' },
+ ];
+
+ return (
+   <div style={{
+     width: '100%', height: '100%',
+     background: '#08080c',
+     display: 'flex', alignItems: 'center', justifyContent: 'center',
+     fontFamily: 'Inter', borderRadius: 16,
+     border: '1px solid rgba(110,80,220,0.18)',
+     position: 'relative', overflow: 'hidden',
+   }}>
+
+     <style>
+       {`
+         @keyframes float-slow {
+           0%, 100% { transform: translateX(0px); opacity: 0.8; }
+           50% { transform: translateX(350px); opacity: 1.2; }
+         }
+         @keyframes float-medium {
+           0%, 100% { transform: translateX(0px); opacity: 0.7; }
+           50% { transform: translateX(-250px); opacity: 1.1; }
+         }
+         @keyframes float-fast {
+           0%, 100% { transform: translateX(0px); opacity: 0.9; }
+           50% { transform: translateX(200px); opacity: 0.6; }
+         }
+         @keyframes float-diagonal {
+           0%, 100% { transform: translate(0px, 0px); opacity: 0.75; }
+           50% { transform: translate(120px, 30px); opacity: 1.0; }
+         }
+         @keyframes float-wave {
+           0%, 100% { transform: translateX(0px); opacity: 0.65; }
+           33% { transform: translateX(-160px); opacity: 0.9; }
+           66% { transform: translateX(80px); opacity: 1.0; }
+         }
+         @keyframes float-pulse {
+           0%, 100% { transform: scale(1); opacity: 0.8; }
+           50% { transform: scale(1.3); opacity: 0.4; }
+         }
+         #glow-1 { animation: float-slow 8s ease-in-out infinite; }
+         #glow-2 { animation: float-medium 12s ease-in-out infinite; }
+         #glow-3 { animation: float-fast 9s ease-in-out infinite; }
+         #glow-4 { animation: float-diagonal 10s ease-in-out infinite; }
+         #glow-5 { animation: float-wave 14s ease-in-out infinite; }
+       `}
+     </style>
+
+     <svg width="860" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
+       <defs>
+         <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+           <stop offset="0%" stopColor="rgba(110,20,210,0.65)" />
+           <stop offset="45%" stopColor="rgba(80,15,170,0.28)" />
+           <stop offset="70%" stopColor="rgba(80,15,170,0)" />
+         </radialGradient>
+         <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+           <stop offset="0%" stopColor="rgba(40,70,255,0.55)" />
+           <stop offset="45%" stopColor="rgba(20,50,200,0.22)" />
+           <stop offset="70%" stopColor="rgba(20,50,200,0)" />
+         </radialGradient>
+         <radialGradient id="g3" cx="50%" cy="50%" r="50%">
+           <stop offset="0%" stopColor="rgba(0,140,255,0.42)" />
+           <stop offset="70%" stopColor="rgba(0,140,255,0)" />
+         </radialGradient>
+         <radialGradient id="g4" cx="50%" cy="50%" r="50%">
+           <stop offset="0%" stopColor="rgba(0,195,235,0.30)" />
+           <stop offset="70%" stopColor="rgba(0,195,235,0)" />
+         </radialGradient>
+         <radialGradient id="g5" cx="50%" cy="50%" r="50%">
+           <stop offset="0%" stopColor="rgba(100,30,210,0.40)" />
+           <stop offset="70%" stopColor="rgba(100,30,210,0)" />
+         </radialGradient>
+       </defs>
+       <ellipse id="glow-1" cx="710" cy="150" rx="210" ry="150" fill="url(#g1)" />
+       <ellipse id="glow-2" cx="550" cy="140" rx="190" ry="140" fill="url(#g2)" />
+       <ellipse id="glow-3" cx="400" cy="130" rx="170" ry="130" fill="url(#g3)" />
+       <ellipse id="glow-4" cx="250" cy="140" rx="150" ry="120" fill="url(#g4)" />
+       <ellipse id="glow-5" cx="100" cy="150" rx="130" ry="110" fill="url(#g5)" />
+     </svg>
+
+     {stats.map(function(s, i) {
+       return (
+         <div key={s.label} style={{
+           flexGrow: 1, display: 'flex', flexDirection: 'column',
+           alignItems: 'center', justifyContent: 'center',
+           padding: '16px 8px',
+           borderRight: i < stats.length - 1 ? '1px solid rgba(255,255,255,0.06)' : 'none',
+           gap: 5,
+         }}>
+           <div style={{ display:'flex', fontSize:30, fontWeight:800, color:s.color, lineHeight:1 }}>
+             {s.value}
+           </div>
+           <div style={{ display:'flex', fontSize:11, color:'rgba(200,195,225,0.45)', fontWeight:600, letterSpacing:'1.5px' }}>
+             {s.label.toUpperCase()}
+           </div>
+         </div>
+       );
+     })}
+   </div>
+ );
+})()
+```
+
+```aura width=860 height=184
 (function() {
  var categories = [
    { title: 'Languages', color: '#a78bfa', items: ['Python', 'SQL', 'Bash'] },
    { title: 'Libraries', color: '#60a5fa', items: ['NumPy', 'Pandas', 'Matplotlib'] },
    { title: 'Tools', color: '#c084fc', items: ['Jupyter', 'Linux', 'Git', 'GitHub'] },
-   { title: 'Speaks', color: '#8e8aa8', dim: true, items: ['Hindi · Native', 'English · Advanced', 'German · Beginner'] },
  ];
 
  return (
@@ -181,7 +288,7 @@
        `}
      </style>
 
-     <svg width="860" height="224" style={{ position: 'absolute', top: 0, left: 0 }}>
+     <svg width="860" height="184" style={{ position: 'absolute', top: 0, left: 0 }}>
        <defs>
          <radialGradient id="g1" cx="50%" cy="50%" r="50%">
            <stop offset="0%" stopColor="rgba(115,20,215,0.68)" />
@@ -211,12 +318,12 @@
            <stop offset="70%" stopColor="rgba(60,80,255,0)" />
          </radialGradient>
        </defs>
-       <ellipse id="glow-1" cx="170" cy="224" rx="260" ry="170" fill="url(#g1)" />
-       <ellipse id="glow-2" cx="320" cy="234" rx="220" ry="140" fill="url(#g2)" />
-       <ellipse id="glow-3" cx="460" cy="234" rx="190" ry="130" fill="url(#g3)" />
-       <ellipse id="glow-4" cx="590" cy="244" rx="160" ry="110" fill="url(#g4)" />
-       <ellipse id="glow-5" cx="750" cy="244" rx="140" ry="100" fill="url(#g5)" />
-       <ellipse id="glow-6" cx="420" cy="194" rx="100" ry="80" fill="url(#g6)" />
+       <ellipse id="glow-1" cx="170" cy="184" rx="260" ry="170" fill="url(#g1)" />
+       <ellipse id="glow-2" cx="320" cy="194" rx="220" ry="140" fill="url(#g2)" />
+       <ellipse id="glow-3" cx="460" cy="194" rx="190" ry="130" fill="url(#g3)" />
+       <ellipse id="glow-4" cx="590" cy="204" rx="160" ry="110" fill="url(#g4)" />
+       <ellipse id="glow-5" cx="750" cy="204" rx="140" ry="100" fill="url(#g5)" />
+       <ellipse id="glow-6" cx="420" cy="154" rx="100" ry="80" fill="url(#g6)" />
      </svg>
 
      <div style={{ display:'flex', fontSize:10, fontWeight:700, color:'rgba(155,140,210,0.5)', letterSpacing:'3px' }}>
@@ -225,7 +332,7 @@
      <div style={{ display:'flex', flexDirection:'column', gap:14 }}>
        {categories.map(function(cat) {
          return (
-           <div key={cat.title} style={{ display:'flex', alignItems:'center', gap:16, marginTop: cat.dim ? 4 : 0, opacity: cat.dim ? 0.8 : 1 }}>
+           <div key={cat.title} style={{ display:'flex', alignItems:'center', gap:16 }}>
              <div style={{ display:'flex', fontSize:10, fontWeight:700, color:cat.color, letterSpacing:'1px', width:80 }}>
                {cat.title.toUpperCase()}
              </div>
